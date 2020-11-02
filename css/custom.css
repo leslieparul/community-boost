@@ -1,0 +1,113 @@
+/*=Custom
+-----------------------------------------------------------*/
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    /* IE10+ CSS styles go here */
+    .card--faces .card__text,
+    .card--standard .card__text,
+    .card--about p {
+        width:100%;
+    }
+    #gform_1 .gfield_checkbox {
+        width: 70%;
+    }
+    .footer__socialWrapper li{
+        width: 28px;
+    }
+    #glide-right-to-left .glide__slide,
+    #glide-left-to-right .glide__slide {
+        width:600px;
+        height:225px;
+    }
+    .testimonial__top p{
+        width:100%;
+    }
+    .blog .card--case-study {
+        height:460px;
+    }
+}
+
+@media only screen and (min-width: 680px) and (max-width: 1023px) {
+
+    .home #stats .stats{
+        width: 84%;
+        margin: 0 auto;
+    }
+}
+
+/* Responsive for screens up to 1024px */
+@media only screen and (max-width: 1023px) {
+    .home #stats .block--small {
+        margin: 0 auto;
+    }
+    .home #stats  {
+        text-align: center;
+    }
+    .align-center-up-large {
+        justify-content: center;
+        text-align: center;
+    }
+    .align-center-up-large .block--right {
+        margin:0 auto 20px auto;
+    }
+    .align-center-up-large .block--small {
+        margin:0 auto;
+    }
+
+    .column-reverse-up-large {
+        flex-direction: column-reverse;
+    }
+    .footer__logoWrapper {
+        margin:0 auto;
+    }
+    #blog-posts-tabs .search-form--nav {
+        max-width: 250px;
+    }
+    .section--form  #gform_submit_button_1 {
+        margin: 0 auto;
+        display: block;
+    }
+    /* Image for lets talk page last section */
+    .align-center-up-large-image {
+        margin:0 auto 12px auto;
+        display: block;
+        width:50%;
+    }
+    /* Image glassdoor */
+    .width-50-up-large {
+        width:50%;
+        max-width: 130px;
+    }
+}
+
+@media only screen and (max-width: 849px) {
+    .align-center-up-medium-large {
+        justify-content: center;
+        text-align: center;
+    }
+    .column-reverse-up-medium-large {
+        flex-direction: column-reverse;
+    }
+    .align-center-up-medium-large .block--small {
+        margin:0 auto;
+    }
+    .home .section__top {
+        padding-top:90px;
+    }
+}
+
+@media only screen and (max-width: 677px) {
+    .align-center-up-medium {
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+.single-post .article-content h3 span a {
+    font-size: 1.375rem;
+}
+
+@media only screen and (min-width: 1023px) {
+    .single-post .article-content h3 span a {
+        font-size: 1.625rem;
+    }
+}
